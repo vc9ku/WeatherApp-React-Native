@@ -19,7 +19,7 @@ const App = () => {
 
   const API_KEY = 'd5e8c8bf9e4648ecc1e571155df0e31a';
 
-  // Fetch Weather by City
+
   const fetchWeather = async (cityName) => {
     setLoading(true);
     try {
